@@ -1,0 +1,112 @@
+:root{
+    --main-color: #fff8ee;
+}
+body{
+    height: 100vh;
+}
+a{
+    transition: 0.25s;
+}
+a:hover{
+    transition: 0.25s;
+}
+i{
+    transition: 0.4s;
+}
+i:hover{
+    transition: 0.4s;
+}
+header{
+    background-color: var(--main-color);
+}
+.navbar .container-fluid .navbar-brand img{
+    width: 75px;
+}
+.first-nav{
+    background-color: #cc3333;
+    height: 45px;
+}
+.first-nav a{
+    color: var(--main-color);
+    font-size: 14px;
+}
+.first-nav a:hover{
+    color: var(--main-color);
+}
+.first-nav .register a{
+    border: #cc3333 1px solid;
+}
+.first-nav .register a:hover{
+    background-color: var(--main-color);
+    color: #cc3333;
+}
+.second-nav .active{
+    color: #cc3333 !important;
+}
+.second-nav .navbar-collapse{
+    align-items: baseline;
+}
+.second-nav .navbar-nav li{
+    font-weight: bold;
+    font-size: 24px;
+}
+.second-nav .navbar-nav li a, .second-nav .del-icon .Delivery{
+    color: #192a56;
+}
+.second-nav .navbar-nav li a:hover{
+    color: #cc3333;
+}
+.second-nav .login{
+    background-color: #cc3333;
+    color: var(--main-color);
+    border: #cc3333 1px solid;
+}
+.second-nav .login:hover{
+    background-color: var(--main-color);
+    color: #cc3333;
+}
+.second-nav .del-icon i{
+    background-color: #192a56;
+    color: var(--main-color);
+    border: #192a56 1px solid;
+}
+.second-nav .del-icon i:hover{
+    background-color: var(--main-color);
+    color: #192a56;
+}
+.second-nav .del-icon img{
+    position: relative;
+    width: 75px;
+}
+
+.backgro{
+    height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/slider.jpg');
+}
+.address h2{
+    color: #cc3333;
+}
+.address p{
+    color: #192a56;
+}
+
+.branch{
+    background-color: #cc3333;
+    height: 250px;
+    width: 100%;
+}
+.branch .card-body{
+    color: var(--main-color);
+}
+
+.rights{
+    background-color: #192a56;
+    height: 50px;
+    width: 100%;
+}
+
+.rights p{
+    color: var(--main-color);
+}
